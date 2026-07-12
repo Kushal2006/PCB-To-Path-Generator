@@ -2,7 +2,7 @@
 
 This repository currently contains the Proof of Concept for the PCB To Path Generator Software (PPG) and its demonstrating automatic extraction of (X,Y) coordinates for the SCARA Robot from a .drl file providede by the user. 
 
-<img> Diagram.png </img>
+<img src="Diagram.png" width="800">
 
 The main purpose of the software is to automate or significantly reduce the time consumed by manual programming of soldering systems. 
 
