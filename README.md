@@ -2,6 +2,8 @@
 
 This repository currently contains the Proof of Concept for the PCB To Path Generator Software (PPG) and its demonstrating automatic extraction of (X,Y) coordinates for the SCARA Robot from a .drl file providede by the user. 
 
+<img>  </img>
+
 The main purpose of the software is to automate or significantly reduce the time consumed by manual programming of soldering systems. 
 
 // Working
@@ -52,4 +54,9 @@ S4) After finding these values we use them on each of there respective holes usi
 
     X = x·cos(θ) − y·sin(θ) + tx
     Y = x·sin(θ) + y·cos(θ) + ty
+
+
+// Aruco Markers
+
+For PCBs without Fiducial Markers we can use things like Aruco Markers Placed over the PCB, which we have to work and think about and is not complete yet.
 
