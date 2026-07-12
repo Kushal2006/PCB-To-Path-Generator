@@ -60,3 +60,7 @@ S4) After finding these values we use them on each of there respective holes usi
 
 For PCBs without Fiducial Markers we can use things like Aruco Markers Placed over the PCB, which we have to work and think about and is not complete yet.
 
+// Complete Product
+
+As this is only the Proof of Concept for the PPG ,the final PPG software would contain a proper GUI, Ability to Define Priority, Assign Components to Each hole, Temperature Requirement(if possible), etc. 
+
