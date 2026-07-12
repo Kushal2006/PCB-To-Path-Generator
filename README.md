@@ -28,8 +28,8 @@ We use 3 variables namely:
 
 Then we apply this into formulas: 
 
-X = x·cos(θ) − y·sin(θ) + tx
-Y = x·sin(θ) + y·cos(θ) + ty
+    X = x·cos(θ) − y·sin(θ) + tx
+    Y = x·sin(θ) + y·cos(θ) + ty
 
 Here, X = Location of the hole for the X Axis of the SCARA Robot
       Y = Location of the hole for the Y Axis of the SCARA Robot
