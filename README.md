@@ -9,7 +9,9 @@ The main purpose of the software is to automate or significantly reduce the time
 
 To run this on your computer you would need a Ubuntu 24 OS, and the instructions are for Ubuntu 24 as we are suing ROS2 Jazzy
 
-S1) Download the entire zip file and seperate the PCB_TO_PATH_GENERATOR and the ROS2 scara_sim package
+S1) Download the entire zip file and seperate the PCB_TO_PATH_GENERATOR and the ROS2 scara_sim workspace
+S2) Open terminal in the PCB_TO_PATH_GENERATOR and then run the following command
+    python3 excellon_parser.py test-PTH.drl -o hole2.csv
 
 
 
