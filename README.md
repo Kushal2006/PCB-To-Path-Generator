@@ -34,7 +34,9 @@ The output would give you the Shoulder and Elbow location for each X,Y Coordinat
 
 // IMP //
 
-You are getting the Shoulder and Elbow location on the assumtion that θ ( Tilt in the fixture) is 0
+You are getting the Shoulder and Elbow location on the assumtion that θ ( Tilt in the fixture) is 0. To get actual θ value we would need to use Fiducial Markers or Aruco Markers. The attached link is where we took the concept from:
+
+
 
 
 
