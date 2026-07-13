@@ -26,7 +26,8 @@ S6) Run the following command
 
 
 Output:
-    
+
+    <img src = "Output.png" >
 
 
 
