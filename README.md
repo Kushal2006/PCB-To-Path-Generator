@@ -30,8 +30,11 @@ Output:
 <img src = "Output.png" >
 
 
+The output would give you the Shoulder and Elbow location for each X,Y Coordinate of the hole from the csv file. 
 
+// IMP //
 
+You are getting the Shoulder and Elbow location on the assumtion that θ ( Tilt in the fixture) is 0
 
 
 
