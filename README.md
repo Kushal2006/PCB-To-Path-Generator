@@ -7,14 +7,26 @@ This repository currently contains the Proof of Concept for the PCB To Path Gene
 The main purpose of the software is to automate or significantly reduce the time consumed by manual programming of soldering systems. 
 // Setup
 
-To run this on your computer you would need a Ubuntu 24 OS, and the instructions are for Ubuntu 24 as we are suing ROS2 Jazzy
+To run this on your computer you would need a Ubuntu 24 OS, and the instructions are for Ubuntu 24 as we are using ROS2 Jazzy
 
 S1) Download the entire zip file and seperate the PCB_TO_PATH_GENERATOR and the ROS2 scara_sim workspace
 S2) Open terminal in the PCB_TO_PATH_GENERATOR and then run the following command
 
-             python3 excellon_parser.py test-PTH.drl -o hole2.csv
+      python3 excellon_parser.py test-PTH.drl -o hole2.csv
+
+S3) You will get a file named hole2.csv which would contain the X,Y Coordinates of the holes in the PCB.
+S4) Now open scara_test_ros2_ws and run
+
+    colcon build
+
+S5) Add /scara_test_ros2_ws/install/setup.bash into the .bashrc file and run source .bashrc
+S6) Run the following command 
+
+    ros2 launch scara_solder_sim solder_sim.launch.py csv_path:=/home/kushal/Desktop/projects/soldering-scara-robot/PCB_TO_PATH_GENERATOR_CONCEPT/hole1.csv
 
 
+Output:
+    
 
 
 
