@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/scara_solder_sim/scara_solder_sim.egg-info
+writing ../../build/scara_solder_sim/scara_solder_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/scara_solder_sim/scara_solder_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/scara_solder_sim/scara_solder_sim.egg-info/entry_points.txt
+writing requirements to ../../build/scara_solder_sim/scara_solder_sim.egg-info/requires.txt
+writing top-level names to ../../build/scara_solder_sim/scara_solder_sim.egg-info/top_level.txt
+writing manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+copying scara_solder_sim/__init__.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+copying scara_solder_sim/solder_path_node.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+running install
+running install_lib
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+copying /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim/__init__.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+copying /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim/solder_path_node.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+byte-compiling /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim/solder_path_node.py to solder_path_node.cpython-312.pyc
+running install_data
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index/packages
+copying resource/scara_solder_sim -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim
+creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim/launch
+copying launch/solder_sim.launch.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim/launch
+running install_egg_info
+Copying ../../build/scara_solder_sim/scara_solder_sim.egg-info to /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim-0.0.1-py3.12.egg-info
+running install_scripts
+Installing solder_path_node script to /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/scara_solder_sim
+writing list of installed files to '/home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/install.log'

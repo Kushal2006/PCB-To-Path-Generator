@@ -1,0 +1,54 @@
+[0.641s] Invoking command in '/home/kushal/Desktop/ROS2/scara_test_ros2_ws/src/scara_solder_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_solder_sim build --build-base /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build install --record /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/install.log --install-scripts $base/lib/scara_solder_sim --single-version-externally-managed install_data
+[0.740s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.740s] !!
+[0.740s] 
+[0.741s]         ********************************************************************************
+[0.741s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.741s]         versions. Please use the underscore name 'script_dir' instead.
+[0.741s] 
+[0.741s]         This deprecation is overdue, please update your project and remove deprecated
+[0.741s]         calls to avoid build errors in the future.
+[0.741s] 
+[0.741s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.741s]         ********************************************************************************
+[0.741s] 
+[0.741s] !!
+[0.741s]   opt = self.warn_dash_deprecation(opt, section)
+[0.846s] running egg_info
+[0.846s] creating ../../build/scara_solder_sim/scara_solder_sim.egg-info
+[0.861s] writing ../../build/scara_solder_sim/scara_solder_sim.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/scara_solder_sim/scara_solder_sim.egg-info/dependency_links.txt
+[0.861s] writing entry points to ../../build/scara_solder_sim/scara_solder_sim.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/scara_solder_sim/scara_solder_sim.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/scara_solder_sim/scara_solder_sim.egg-info/top_level.txt
+[0.862s] writing manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+[0.892s] reading manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/scara_solder_sim/scara_solder_sim.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build
+[0.893s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib
+[0.893s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+[0.893s] copying scara_solder_sim/__init__.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+[0.893s] copying scara_solder_sim/solder_path_node.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim
+[0.893s] running install
+[0.898s] running install_lib
+[0.915s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+[0.915s] copying /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim/__init__.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+[0.915s] copying /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build/lib/scara_solder_sim/solder_path_node.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim
+[0.915s] byte-compiling /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim/__init__.py to __init__.cpython-312.pyc
+[0.915s] byte-compiling /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim/solder_path_node.py to solder_path_node.cpython-312.pyc
+[0.917s] running install_data
+[0.917s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index
+[0.917s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index
+[0.917s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index/packages
+[0.917s] copying resource/scara_solder_sim -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/ament_index/resource_index/packages
+[0.917s] copying package.xml -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim
+[0.917s] creating /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim/launch
+[0.917s] copying launch/solder_sim.launch.py -> /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/share/scara_solder_sim/launch
+[0.917s] running install_egg_info
+[0.941s] Copying ../../build/scara_solder_sim/scara_solder_sim.egg-info to /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages/scara_solder_sim-0.0.1-py3.12.egg-info
+[0.943s] running install_scripts
+[1.047s] Installing solder_path_node script to /home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/scara_solder_sim
+[1.047s] writing list of installed files to '/home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/install.log'
+[1.079s] Invoked command in '/home/kushal/Desktop/ROS2/scara_test_ros2_ws/src/scara_solder_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/Desktop/ROS2/scara_test_ros2_ws/install/scara_solder_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_solder_sim build --build-base /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/build install --record /home/kushal/Desktop/ROS2/scara_test_ros2_ws/build/scara_solder_sim/install.log --install-scripts $base/lib/scara_solder_sim --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: scara-solder-sim
+Version: 0.0.1
+Summary: CSV to SCARA joint-angle simulation (theta = 0)
+Maintainer: your_name
+Maintainer-email: you@example.com
+License: MIT

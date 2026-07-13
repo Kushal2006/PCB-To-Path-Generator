@@ -1,0 +1,2 @@
+[console_scripts]
+solder_path_node = scara_solder_sim.solder_path_node:main
