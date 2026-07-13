@@ -5,6 +5,21 @@ This repository currently contains the Proof of Concept for the PCB To Path Gene
 <img src="Diagram.png" width="300">
 
 The main purpose of the software is to automate or significantly reduce the time consumed by manual programming of soldering systems. 
+// Setup
+
+To run this on your computer you would need a Ubuntu 24 OS, and the instructions are for Ubuntu 24 as we are suing ROS2 Jazzy
+
+S1) Download the entire zip file and seperate the PCB_TO_PATH_GENERATOR and the ROS2 scara_sim package
+
+
+
+
+
+
+
+
+
+
 
 // Working
 
